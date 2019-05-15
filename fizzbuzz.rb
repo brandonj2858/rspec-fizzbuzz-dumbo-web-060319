@@ -1,9 +1,9 @@
 def fizzbuzz(int)
-  if fizzbuzz % 3
+  if fizzbuzz(int) % 3
     return "Fizz"
-  else if fizzbuzz % 5
+  else if fizzbuzz(int) % 5
     return "Buzz"
-  else if fizzbuzz % 5 && 3
+  else if fizzbuzz(int) % 5 && 3
     return "Fizzbuzz"
   else return false end
 end
